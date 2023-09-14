@@ -1,0 +1,153 @@
+/* Global styles for the main content */
+body {
+    font-size: 16pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 100%;
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center;
+    background-image: url(/Assets/Images/backgoundtest.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+/* Other global styles for the main content */
+main {
+    width: 80%;
+    margin: auto;
+}
+
+main p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 10px;
+    color:#0E30E9;
+    text-decoration:underline;
+}
+
+h2 {
+    padding-top: 10px;
+    color:#0E30E9;
+    text-decoration:underline;
+}
+
+h3 {
+    padding-top: 10px;
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+main a{
+    text-decoration-style: none;
+
+}
+
+main div {
+    margin: auto; /* Center the main content horizontally and add top margin */
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+.intro {
+    font-size: 14pt;
+}
+
+.bNb {
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 3 inline divs with responsive flex layout styles */
+.inlineDiv {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.divBox {
+    flex-basis: 30%;
+    text-align: center;
+    color: #ffffff;
+    background-color:  #0E30E9;
+    border: solid;
+    border-color: #1d0fdd;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.divBox h2{
+    color: #ffffff;
+}
+
+.divBox img {
+    max-width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.divBox p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.divBox a:visited {
+    color: #ffffff;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .headerImg {
+        padding-top: 50px; /* Remove top padding */
+        margin: 0 auto; /* Center the image horizontally */
+        max-width: 100%; /* Make the image full width */
+    }
+
+    .upperNav {
+        display: none; /* Hide the upper navigation */
+    }
+
+    .navigationContainer {
+        flex-direction: column; /* Stack the elements vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .lowerNav ul {
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        padding-top: 20px; /* Add spacing between logo and lower navigation */
+    }
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .divBox {
+        flex-basis: 60%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

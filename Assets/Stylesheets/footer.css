@@ -1,0 +1,53 @@
+/* Footer styles */
+footer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    border-radius: 5px;
+}
+
+/* Footer image styles */
+.footerImg {
+    display: block;
+    max-width: 90%;
+}
+
+/* Footer text styles */
+.footerText {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px; /* Add spacing between the text and links */
+}
+
+/* Footer links styles */
+.footerLinks {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks p {
+    align-self: center;
+}
+
+.footerLinks a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0069E0; /* Optional: Customize link color */
+}
+
+.footerLinks a:hover {
+    color: #ffffff;
+}
+
+.bNb {
+    max-height: 600px;
+}
