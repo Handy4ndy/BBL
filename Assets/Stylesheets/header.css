@@ -88,6 +88,7 @@ header {
 }
 
 .lowerNav a {
+    display: inline;
     font-size: 18px;
     color: #0E30E9;
     text-decoration: none;
