@@ -71,6 +71,19 @@ section {
 }
 
 
+.fixed-image {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 20px; /* Adjust the distance from the left as needed */
+    z-index: 9999; /* Adjust the z-index to ensure it's above other content */
+}
+
+.fixed-image img {
+    width: 100px; /* Adjust the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove any border */
+}
+
 /* Style for the introduction section */
 .introduction {
     text-align: center; /* Center-align the content */
