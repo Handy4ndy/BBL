@@ -5,7 +5,6 @@ body {
     width: 100%;
     margin: 0 auto; /* Center the content horizontally */
     text-align: center;
-    
 }
 
 .background-wrapper {
@@ -70,6 +69,38 @@ section {
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
 }
+
+
+/* Style for the introduction section */
+.introduction {
+    text-align: center; /* Center-align the content */
+}
+
+.introduction h1 {
+    margin-top: 0; /* Remove default top margin of h1 */
+}
+
+.intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.introImg {
+    max-width: 300px; /* Set the maximum width for the images */
+    margin: 10px; /* Add margin around the images */
+}
+
+.intro-content p {
+    flex: 1; /* Allow paragraphs to grow and fill available space */
+    text-align: left; /* Align paragraphs to the left */
+    margin: 10px; /* Add margin around the paragraphs */
+}
+
+
+
 
 .intro {
     font-size: 14pt;
