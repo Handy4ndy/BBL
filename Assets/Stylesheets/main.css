@@ -95,7 +95,7 @@ section {
 
 .intro-content p {
     flex: 1; /* Allow paragraphs to grow and fill available space */
-    text-align: left; /* Align paragraphs to the left */
+    text-align: center; /* Align paragraphs to the left */
     margin: 10px; /* Add margin around the paragraphs */
 }
 
