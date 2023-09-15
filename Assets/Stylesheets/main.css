@@ -5,8 +5,22 @@ body {
     width: 100%;
     margin: 0 auto; /* Center the content horizontally */
     text-align: center;
-    background-image: linear-gradient(#0611f7, #FEFEFD);
+    
 }
+
+.background-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(#0611f7, #FEFEFD);
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+    
 
 /* Other global styles for the main content */
 main {
