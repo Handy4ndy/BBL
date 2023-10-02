@@ -2,7 +2,7 @@
 header {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 70%;
     min-height: fit-content;
     background-color: #ffffff;
     border-radius: 5px;
@@ -40,10 +40,12 @@ header {
 
 /* Upper navigation styles */
 .upperNav {
+    background-color: #0E30E9;
     border-radius: 5px;
     padding-top: 30px;
+    padding-right: 30px;
     margin-bottom: 20px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.3);
+    
 }
 
 .upperNav ul {
@@ -59,12 +61,13 @@ header {
     font-size: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 10px;
     transition: color 0.3s;
-    padding: 5px 10px;
+    border-style: solid;
+    padding: 10px;
     border-radius: 5px;
-    gap: 20px;
+    border-width: 2px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .upperNav a:hover {
