@@ -4,12 +4,12 @@
     margin: 0 auto;
 }
 
-.slide {
+.slide-fade {
     display: none;
 }
 
-img {
-    width: 100%;
+.slide-fade img {
+    max-height: 300px;
 }
 
 .controls {

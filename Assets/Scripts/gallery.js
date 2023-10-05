@@ -1,7 +1,7 @@
 let slideIndex = 0;
 
 function showSlides() {
-    let slides = document.getElementsByClassName("slide");
+    let slides = document.getElementsByClassName("slide-fade");
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -22,7 +22,7 @@ function currentSlide(n) {
 }
 
 function showSlide(n) {
-    let slides = document.getElementsByClassName("slide");
+    let slides = document.getElementsByClassName("slide-fade");
     if (n > slides.length) {
         slideIndex = 1;
     }
