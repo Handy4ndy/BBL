@@ -1,14 +1,14 @@
-.eventGallery {
+.slideshow-container {
+    position: relative;
     max-width: 800px;
     margin: 0 auto;
 }
 
-.slideshow-container {
-    position: relative;
+.slide {
+    display: none;
 }
 
-.eventSlide {
-    display: none;
+img {
     width: 100%;
 }
 
