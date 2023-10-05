@@ -1,7 +1,7 @@
 let slideIndex = 0;
 
 function showSlides() {
-    let slides = document.getElementsByClassName("slide-fade");
+    let slides = document.getElementsByClassName("slide");
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -10,7 +10,7 @@ function showSlides() {
         slideIndex = 1;
     }
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
+    setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
 
 function plusSlides(n) {
@@ -22,7 +22,7 @@ function currentSlide(n) {
 }
 
 function showSlide(n) {
-    let slides = document.getElementsByClassName("slide-fade");
+    let slides = document.getElementsByClassName("slide");
     if (n > slides.length) {
         slideIndex = 1;
     }

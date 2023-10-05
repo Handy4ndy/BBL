@@ -1,15 +1,15 @@
 .slideshow-container {
     position: relative;
-    max-width: 800px;
     margin: 0 auto;
 }
 
-.slide-fade {
+.slide {
     display: none;
 }
 
-.slide-fade img {
+.slide img {
     max-height: 300px;
+
 }
 
 .controls {
