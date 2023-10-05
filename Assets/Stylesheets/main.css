@@ -63,8 +63,8 @@ main div {
 }
 
 section {
-    background: url(/Assets/Images/elewhite.jpg);
-    background-size: contain;
+    background: url(Assets/Images/elewhite.jpg);
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
