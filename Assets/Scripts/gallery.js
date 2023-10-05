@@ -14,11 +14,11 @@ function showSlides() {
 }
 
 function plusSlides(n) {
-    showSlide(slideIndex += n);
+    showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
-    showSlide(slideIndex = n);
+    showSlides(slideIndex = n);
 }
 
 function showSlide(n) {
