@@ -63,8 +63,8 @@ main div {
 }
 
 section {
-    background: url(/Assets/Images/elegant-white-background-with-shiny-lines_1017-17580.jpg);
-    background-size: cover;
+    background: url(/Assets/Images/elewhite.jpg);
+    background-size: contain;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
