@@ -38,8 +38,8 @@ function showSlide(n) {
 }
 
 
- // Start the slideshow
+showSlides();// Start the slideshow
 
 });
 
-showSlides();
+
