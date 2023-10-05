@@ -63,7 +63,7 @@ main div {
 }
 
 section {
-    background: url(Images/elewhite.jpg);
+    background: url(elewhite.jpg);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
