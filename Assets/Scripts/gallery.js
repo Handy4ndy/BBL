@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(){
+
 let slideIndex = 0;
 
 function showSlides() {
@@ -35,4 +37,7 @@ function showSlide(n) {
     slides[slideIndex - 1].style.display = "block";
 }
 
+
 showSlides(); // Start the slideshow
+
+});
