@@ -1,0 +1,31 @@
+.eventGallery {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+.eventSlide {
+    display: none;
+    width: 100%;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #555;
+}
