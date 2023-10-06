@@ -131,10 +131,10 @@ section {
 
 
 .dailyContentFriday p {
-    text-align: center;
+    padding: 10px;
     width:70%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
+    
 }
 
 /* 3 inline divs with responsive flex layout styles */
