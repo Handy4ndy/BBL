@@ -225,8 +225,14 @@ section {
         box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
     }
 
+    .dailyContentFriday h2{
+        color: #367A3F;
+        margin: 20px;
+    
+    }
+
     .divBox {
-        flex-basis: 60%;
+        flex-basis: 80%;
         margin-bottom: 20px;
     }
 
