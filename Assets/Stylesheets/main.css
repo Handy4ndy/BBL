@@ -209,6 +209,12 @@ section {
         width: 90%; /* Adjust the width for smaller screens */
     }
 
+    .bNb {
+        Width:80%;
+        border-radius: 5px;
+        box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    }
+
     .divBox {
         flex-basis: 60%;
         margin-bottom: 20px;
