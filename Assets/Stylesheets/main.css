@@ -213,6 +213,12 @@ section {
         padding-top: 20px; /* Add spacing between logo and lower navigation */
     }
 
+    .fixed-image img{
+        width:10%;
+        float: left;
+    }
+
+
     main {
         margin-left: 5%;
         margin-right: 5%;
@@ -239,4 +245,6 @@ section {
     footer {
         flex-direction: column;
     }
+
+
 }
