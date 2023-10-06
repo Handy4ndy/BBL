@@ -1,6 +1,6 @@
 /* Global styles for the main content */
 body {
-    font-size: 12pt;
+    font-size: 14pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     width: 100%;
     margin: 0 auto; /* Center the content horizontally */
@@ -31,6 +31,7 @@ h1 {
     padding-top: 10px;
     color:#0E30E9;
     text-decoration:underline;
+    font-size: 2em;
 }
 
 h2 {
@@ -64,18 +65,18 @@ section {
     padding-bottom: 20px;
 }
 
-
+/* ------------------Orange umbrella------------------ */
 .fixed-image {
     position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    left: 20px; /* Adjust the distance from the left as needed */
-    z-index: 9999; /* Adjust the z-index to ensure it's above other content */
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
 }
 
 .fixed-image img {
-    width: 100px; /* Adjust the image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    border: none; /* Remove any border */
+    width: 100px;
+    height: auto; 
+    border: none; 
 }
 
 /* Style for the introduction section */
