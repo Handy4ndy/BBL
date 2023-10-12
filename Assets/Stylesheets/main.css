@@ -1,6 +1,6 @@
 /* Global styles for the main content */
 body {
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     width: 100%;
     margin: 0 auto; /* Center the content horizontally */
@@ -23,7 +23,7 @@ body {
 
 /* Other global styles for the main content */
 main {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
