@@ -189,28 +189,17 @@ section {
 }
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
-    .headerImg {
-        padding-top: 50px; /* Remove top padding */
-        margin: 0 auto; /* Center the image horizontally */
-        max-width: 100%; /* Make the image full width */
+    .introduction {
+        text-align: center;
+        display: block;
+        margin: auto;
+        padding: 0px;
     }
-
-    .upperNav {
-        display: none; /* Hide the upper navigation */
+    
+    .intro-content p{
+        padding:0 10px;
     }
-
-    .navigationContainer {
-        flex-direction: column; /* Stack the elements vertically */
-        align-items: center; /* Center items horizontally */
-    }
-
-    .lowerNav ul {
-        display: inline-block;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center; /* Center items horizontally */
-        padding-top: 20px; /* Add spacing between logo and lower navigation */
-    }
+    
 
     .fixed-image img{
         width:10%;
