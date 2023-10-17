@@ -65,6 +65,11 @@ section {
     padding-bottom: 20px;
 }
 
+section p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* ------------------Orange umbrella------------------ */
 .fixed-image {
     position: fixed;
@@ -202,9 +207,11 @@ section {
 }
 
 
-.feedbackimg{
+.feedback .feedbackimg{
     width:50%;
 }
+
+
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
 
@@ -264,6 +271,10 @@ section {
     .socialBtns a img{
         width: 50%;
     }
+    
+    .feedback img{
+    width:50%;
+}
 
     footer {
         flex-direction: column;
