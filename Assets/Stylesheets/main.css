@@ -267,9 +267,10 @@ section p{
     
     }
 
-    .dailyContentTuesday .hubLink a{
+    .dailyContentTuesday a{
         color: #0E30E9;
         text-decoration: none;
+        margin:0;
     }
 
     .divBox {
