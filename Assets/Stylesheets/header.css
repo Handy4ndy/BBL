@@ -1,114 +1,180 @@
-/* Header styles */
 header {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    min-height: fit-content;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin: auto;
-    margin-top: -50px;
+    align-self: center;
+    text-align: center;
+    background-color:#0E89E9;
+    max-width: 800px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+}
+.logo{
+    display: block;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
 }
 
-/* Header container styles */
-.headerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Header image styles */
-.headerImg {
+.navigation {
     display: inline-flex;
-    padding-top: 50px;
-    margin-right: 20px;
-    width: 40%;
-    height: auto;
-}
-
-/* Navigation container styles */
-.navigationContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Upper navigation styles */
-.upperNav {
     background-color: #0E30E9;
-    border-radius: 5px;
-    padding-top: 30px;
-    padding-right: 30px;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
     
 }
 
-.upperNav ul {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-    width: 100%;
-}
-
-.upperNav a {
-    display: inline-flex;
-    align-items: center;
-    font-size: 18px;
-    color: #FFFFFF;
+ul {
+    background-color: #0E30E9;
+    display: flex;
     text-decoration: none;
-    margin-bottom: 10px;
-    transition: color 0.3s;
-    border-style: solid;
-    padding: 10px;
-    border-radius: 5px;
-    border-width: 2px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
 }
 
-.upperNav a:hover {
-    color: #FC0613;
-    background-color: #FFFFFF;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Lower navigation styles */
-.lowerNav {
-    display: inline-flex;
-    flex-direction: column;
-    text-align: right;
-}
-
-.lowerNav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    background-color: #fff;
-}
-
-.lowerNav a {
-    display: inline;
-    font-size: 18px;
-    color: #0E30E9;
+a {
+    color: white;
     text-decoration: none;
-    margin-bottom: 10px;
-    transition: color 0.3s;
-    border-style: solid;
-    padding: 10px;
-    border-radius: 5px;
-    border-width: 2px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+    margin: 42.5px;
+}
+a:visited {
+    text-decoration: none;
 }
 
-.lowerNav a.selected {
-    font-weight: bold;
-    color: #FC0613
+/* Style for the About dropdown */
+.navigation .dropdownAbout {
+    position: relative;
 }
 
-.lowerNav a:hover {
-    color: #FC0613;
+.dropdown-contentAbout {
+    display: none;
+    position: absolute;
+    background-color: #0E30E9; /* Background color of the dropdown */
+    list-style: none;
+    border-radius: 10px;
+    padding: 0;
+    text-align: center; /* Center text within the dropdown */
 }
+
+.navigation .dropdownAbout:hover .dropdown-contentAbout {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-contentAbout a {
+    color: white; /* Color for dropdown links */
+    text-decoration: none;
+    display: block;
+    padding: 0 25px;
+    margin: 10px auto; /* Center the links horizontally */
+}
+
+.navigation .dropdownAbout:hover .dropdown-contentAbout a:hover {
+    background-color: #0E89E9; /* Background color for hovered dropdown items */
+}
+
+/*    style for services dropdown      */
+.navigation .dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0E30E9; /* Background color of the dropdown */
+    list-style: none;
+    border-radius: 10px;
+    padding: 0;
+    text-align: center; /* Center text within the dropdown */
+}
+
+.navigation .dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-content a {
+    color: white; /* Color for dropdown links */
+    text-decoration: none;
+    display: block;
+    padding: 0 30px;
+    margin: 10px auto; /* Center the links horizontally */
+}
+
+.navigation .dropdown:hover .dropdown-content a:hover {
+    background-color: #0E89E9; /* Background color for hovered dropdown items */
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding-top: 10px;
+        margin-top: -10px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .navigation ul {
+        display: flex;
+        padding: 5px 40px;
+        margin: 5px;
+        /* Change to a block layout for smaller screens */
+    }
+
+    .navigation a {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .dropdown-content {
+        display: none; /* Hide dropdowns by default on smaller screens */
+        background-color: #0E30E9; /* Background color for dropdown items */
+        padding:0 20px;
+        margin:0 -2px;
+    }
+    
+    .dropdown-contentAbout{
+        display: none; /* Hide dropdowns by default on smaller screens */
+        background-color: #0E30E9; /* Background color for dropdown items */
+        padding:0 20px;
+        margin:0 -21px;
+    }
+
+    .navigation .dropdownAbout:hover .dropdown-contentAbout,
+    .navigation .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        text-align: left;
+        max-width: fit-content;
+    }
+
+    .dropdown-contentAbout a:hover,
+    .dropdown-content a:hover {
+        background-color: #0E89E9;
+        border-radius: 5px;
+        background-size: 50%;
+        max-width: fit-content;
+        
+    }
+
+    .dropdown-content a {
+        max-width: 100%; /* Ensure the dropdown items stay on one line */
+        white-space: nowrap; /* Prevent text from wrapping to the next line */
+        padding: 5px; /* Adjust the padding as needed */
+        margin: 5px 0; /* Adjust the margin as needed */
+    }
+
+    .dropdown-contentAbout a {
+        max-width: 100%; /* Ensure the dropdown items stay on one line */
+        white-space: nowrap; /* Prevent text from wrapping to the next line */
+        padding: 5px; /* Adjust the padding as needed */
+        margin: 5px 0; /* Adjust the margin as needed */
+    }
+    
+}
+
+
+
