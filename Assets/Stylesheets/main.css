@@ -42,7 +42,7 @@ h2 {
 
 h3 {
     padding-top: 10px;
-    color:#ffffff;
+    color:#0E30E9;
     text-decoration:underline;
 }
 
@@ -164,7 +164,7 @@ section p{
     margin: 2px;
 }
 
-.divBox h2{
+.divBox h3{
     color: #ffffff;
 }
 
@@ -173,12 +173,17 @@ section p{
     height: auto;
     margin: 10px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #0E89E9;
 }
 
 .divBox p {
     text-align: center;
     font-size: 14px;
+}
+
+.divBoxLink{
+    padding:10px;
+    background-color: #0E30E9;
 }
 
 .divBox a:visited {
