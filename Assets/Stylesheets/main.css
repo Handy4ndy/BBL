@@ -179,9 +179,27 @@ section {
     color: #ffffff;
 }
 
-.sketch {
-    width: 50%;
+/* ----------------- Social Pages---------------------*/
+.socialBtns {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
 }
+
+.socialBtns a {
+    text-align: center; 
+    text-decoration: none;
+    color: #333; 
+    flex: 1; 
+    padding: 10px; 
+}
+
+.socialLogo {
+    max-width: 48px;
+    display: block;
+    margin: 0 auto; 
+}
+
 
 .feedback p, h3{
     color:black;
@@ -234,6 +252,13 @@ section {
     .divBox {
         flex-basis: 80%;
         margin-bottom: 20px;
+    }
+
+    .socialBtns a {
+        text-align: center;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+         
     }
 
     footer {
