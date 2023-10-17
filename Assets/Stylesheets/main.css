@@ -1,5 +1,5 @@
 /* Global styles for the main content */
-body {
+body{
     text-align: center;
     align-self: center;
     font-size: 14px;
@@ -18,8 +18,8 @@ body {
     background-repeat: repeat-y;
     background-position: center top;
     background-attachment: fixed;
-}
-
+  }
+    
 
 /* Other global styles for the main content */
 main {
@@ -29,31 +29,30 @@ main {
 
 h1 {
     padding-top: 10px;
-    color: #0E30E9;
-    text-decoration: underline;
+    color:#0E30E9;
+    text-decoration:underline;
     font-size: 2em;
 }
 
 h2 {
     padding-top: 10px;
-    color: #0E30E9;
-    text-decoration: underline;
+    color:#0E30E9;
+    text-decoration:underline;
 }
 
 h3 {
     padding-top: 10px;
-    color: #0E30E9;
-    text-decoration: underline;
+    color:#0E30E9;
+    text-decoration:underline;
 }
 
-a {
+a{
     text-decoration-style: none;
 
 }
 
 div {
-    margin: auto;
-    /* Center the main content horizontally and add top margin */
+    margin: auto; /* Center the main content horizontally and add top margin */
     border-radius: 5px;
     padding-bottom: 5px;
 }
@@ -66,29 +65,24 @@ section {
     padding-bottom: 20px;
 }
 
-section p {
+section p{
     margin-left: 10%;
     margin-right: 10%;
 }
 
 /* ------------------Orange umbrella------------------ */
-.fixed-image {
+.fixed-image img{
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    width:5%;
+    bottom: 1px;
+    left: 1px;
     z-index: 9999;
-}
-
-.fixed-image img {
-    width: 100px;
-    height: auto;
-    border: none;
 }
 
 /* Style for the introduction section */
 .introduction {
     display: flex;
-    text-align: center;
+    text-align: center; 
     background: url(elewhite.jpg);
     background-size: cover;
 }
@@ -101,21 +95,21 @@ section p {
 }
 
 .introImg {
-    max-width: 300px;
+    max-width: 300px; 
     margin: 10px;
-    flex: 1;
+    flex: 1; 
 }
 
 .intro-content p {
-    flex: 2;
+    flex: 2; 
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 10px ; 
 }
 
 .intro-content a {
     text-decoration: none;
-    color: black;
+    color:black;
     margin: 0;
 }
 
@@ -129,7 +123,7 @@ section p {
 }
 
 
-.dailyContentFriday h2 {
+.dailyContentFriday h2{
     color: #367A3F;
 
 }
@@ -138,9 +132,9 @@ section p {
 
 .dailyContentFriday p {
     padding: 10px;
-    width: 70%;
+    width:70%;
     margin: auto;
-
+    
 }
 
 /* 3 inline divs with responsive flex layout styles */
@@ -156,16 +150,16 @@ section p {
     flex-basis: 30%;
     text-align: center;
     color: #ffffff;
-    background-color: #0E89E9;
+    background-color:  #7286f3;
     border: solid;
-    border-color: #0E89E9;
+    border-color: #7286f3;
     border-width: 1px;
     border-radius: 5px;
     padding: 2px;
     margin: 2px;
 }
 
-.divBox h3 {
+.divBox h3{
     color: #ffffff;
 }
 
@@ -182,8 +176,8 @@ section p {
     font-size: 14px;
 }
 
-.divBoxLink {
-    padding: 10px;
+.divBoxLink{
+    padding:10px;
     background-color: #0E30E9;
 }
 
@@ -193,41 +187,49 @@ section p {
 
 /* ----------------- Social Pages---------------------*/
 .socialBtns {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex; 
+    max-width: 70%;
+    justify-content: space-evenly; 
+    align-items: center; 
 }
 
 .socialBtns a {
-    text-align: center;
+    text-align: center; 
     text-decoration: none;
-    color: black;
-    flex: 1;
-    padding: 10px;
+    color: black; 
+    padding: 0 0 0 0;
+    margin:0 0 0 0;
+     
 }
 
 .socialLogo {
     max-width: 48px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 
-.feedback .feedbackimg {
-    width: 50%;
+.feedback .feedbackimg{
+    width:20%;
 }
 
 
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
 
-    .fixed-image img {
-        width: 10%;
-        position: fixed;
-        bottom: 1px;
-        left: 1px;
-        z-index: 9999;
-    }
+    .fixed-image img{
+       width:10%;
+    position: fixed;
+    bottom: 20px;
+    left: 5px;
+    z-index: 9999;
+}
+
+.fixed-image img {
+    width: 100px;
+    height: auto; 
+    border: none; 
+}
 
     .introduction {
         text-align: center;
@@ -235,35 +237,39 @@ section p {
         margin: auto;
         padding: 0px;
     }
-
-    .intro-content p {
-        padding: 0 10px;
+    
+    .intro-content p{
+        padding:0 10px;
     }
 
     .introImg {
-        width: 80%;
-        margin: auto;
-        flex: 1;
+        width:80%; 
+        margin:auto;
+        flex: 1; 
     }
 
 
     main {
         margin-left: 5%;
         margin-right: 5%;
-        width: 90%;
-        /* Adjust the width for smaller screens */
+        width: 90%; /* Adjust the width for smaller screens */
     }
 
     .bNb {
-        Width: 80%;
+        Width:80%;
         border-radius: 5px;
         box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
     }
 
-    .dailyContentFriday h2 {
+    .dailyContentFriday h2{
         color: #367A3F;
         margin: 10px;
+    
+    }
 
+    .hubLink {
+        color: #0E30E9;
+        text-decoration: none;
     }
 
     .divBox {
@@ -275,16 +281,16 @@ section p {
         text-align: center;
         color: black;
         padding: 0 0 0 0;
-        margin: 0 0 0 0;
+        margin: 0 0 0 0; 
     }
-
-    .socialBtns a img {
+    
+    .socialBtns a img{
         width: 50%;
     }
-
-    .feedback img {
-        width: 50%;
-    }
+    
+    .feedback img{
+    width:50%;
+}
 
     footer {
         flex-direction: column;
