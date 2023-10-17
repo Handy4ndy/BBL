@@ -202,9 +202,8 @@ section {
 }
 
 
-.feedback p, h3{
-    color:black;
-
+.feedbackimg{
+    width:50%;
 }
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
