@@ -189,6 +189,12 @@ section {
 }
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
+
+    .fixed-image img{
+        width:10%;
+        float: left;
+    }
+
     .introduction {
         text-align: center;
         display: block;
@@ -199,11 +205,11 @@ section {
     .intro-content p{
         padding:0 10px;
     }
-    
 
-    .fixed-image img{
-        width:10%;
-        float: left;
+    .introImg {
+        width:80%; 
+        margin:auto;
+        flex: 1; 
     }
 
 
