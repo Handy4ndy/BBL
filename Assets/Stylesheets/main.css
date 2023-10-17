@@ -113,6 +113,7 @@ section {
     margin: 0;
 }
 
+/* ------------------------------ daily content HTML ------------------------*/
 
 .bNb {
     width: 40%;
@@ -189,7 +190,7 @@ section {
 .socialBtns a {
     text-align: center; 
     text-decoration: none;
-    color: #333; 
+    color: black; 
     flex: 1; 
     padding: 10px; 
 }
@@ -257,8 +258,11 @@ section {
     .socialBtns a {
         text-align: center;
         padding: 0 0 0 0;
-        margin: 0 0 0 0;
-         
+        margin: 0 0 0 0; 
+    }
+    
+    .socialBtns a img{
+        width: 50%;
     }
 
     footer {
