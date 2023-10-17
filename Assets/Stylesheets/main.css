@@ -128,14 +128,17 @@ section p{
 
 }
 
-
-
 .dailyContentFriday p {
     padding: 10px;
     width:70%;
-    margin: auto;
-    
+    margin: auto;    
 }
+
+.dailyContentTuesday a{
+        color: #0E30E9;
+        text-decoration: none;
+        margin:0;
+    }
 
 /* 3 inline divs with responsive flex layout styles */
 .inlineDiv {
@@ -150,7 +153,7 @@ section p{
     flex-basis: 30%;
     text-align: center;
     color: #ffffff;
-    background-color:  #7286f3;
+    background-color:  #0E89E9;
     border: solid;
     border-color: #7286f3;
     border-width: 1px;
@@ -161,6 +164,7 @@ section p{
 
 .divBox h3{
     color: #ffffff;
+    font-size: 30px
 }
 
 .divBox img {
@@ -267,10 +271,9 @@ section p{
     
     }
 
-    .dailyContentTuesday a{
+    .hubLink {
         color: #0E30E9;
         text-decoration: none;
-        margin:0;
     }
 
     .divBox {
