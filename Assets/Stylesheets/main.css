@@ -222,10 +222,10 @@ section p {
 @media (max-width: 768px) {
 
     .fixed-image img {
-        width: 20%;
+        width: 10%;
         position: fixed;
-        bottom: 5px;
-        left: 5px;
+        bottom: 1px;
+        left: 1px;
         z-index: 9999;
     }
 
