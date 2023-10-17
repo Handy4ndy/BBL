@@ -257,6 +257,7 @@ section {
 
     .socialBtns a {
         text-align: center;
+        color: black;
         padding: 0 0 0 0;
         margin: 0 0 0 0; 
     }
