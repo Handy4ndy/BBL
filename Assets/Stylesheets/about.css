@@ -29,6 +29,7 @@ body {
 }
 main {
     display: flex;
+    width:80%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -82,10 +83,9 @@ main {
 
 /* Style for the embedded iframe */
 iframe {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
+    width: 60%;
+    height: 700px;
+    margin:  0;
     border: none;
 }
 
