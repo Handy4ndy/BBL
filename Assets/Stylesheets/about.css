@@ -26,15 +26,6 @@ body{
     left: 1px;
     z-index: 9999;
 }
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 /* Style for individual sections */
 .about-section {
     margin: 20px;
@@ -42,7 +33,7 @@ main {
     background-color: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
     text-align: left;
 }
 
@@ -69,6 +60,10 @@ main {
     text-decoration: none;
     color: #007BFF;
     font-weight: 600;
+}
+.about-section img{
+    width:50%;
+    margin:auto;
 }
 
 /* Style for the embedded iframe */
