@@ -5,10 +5,10 @@ footer {
     justify-content: center;
     align-items: center;
     width: 70%;
-    margin-top: 10px;
-    padding: 10px;
+    margin-bottom: 20px;
     background-color: #f0f0f0; /* Optional: Add a background color */
     border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer image styles */
