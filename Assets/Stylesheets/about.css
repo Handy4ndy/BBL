@@ -30,31 +30,26 @@ body {
 
 /* Style for individual sections */
 .about-section {
-    margin: 20px;
+    flex: 0 1 calc(30% - 20px); /* Adjust the width to your preference */
+    margin: 10px;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #f4f4f4;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    transition: transform 0.3s;
-}
-
-.about-section:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .about-section h2 {
-    font-size: 26px;
+    font-size: 24px;
     margin: 10px 0;
-    color: #007BFF;
+    color: #333;
 }
 
 .about-section p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
 }
 
 .about-section ul {
@@ -63,25 +58,18 @@ body {
 }
 
 .about-section a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #FFFFFF;
+    display: block;
+    margin-top: 10px;
     text-decoration: none;
+    color: #007BFF;
     font-weight: 600;
-    border-radius: 5px;
 }
 
-.about-section a:hover {
-    background-color: #0056b3;
-}
-
-.about-section img {
+/* Style for the embedded iframe */
+iframe {
     width: 100%;
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
+    margin: 20px 0;
+    border: none;
 }
