@@ -22,8 +22,10 @@ header {
     background-color: #0E30E9;
     flex-wrap: wrap;
     flex-direction: column;
+    width:100%;
     margin: auto;
     border-radius: 10px;
+    align-content: center;
 }
 
 ul {
@@ -36,7 +38,8 @@ ul {
 a {
     color: white;
     text-decoration: none;
-    margin: 42.5px;
+    margin:20px ;
+    
 }
 a:visited {
     text-decoration: none;
