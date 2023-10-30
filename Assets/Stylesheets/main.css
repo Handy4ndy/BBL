@@ -141,6 +141,11 @@ section p{
     flex:1;
 }
 
+.dailyTxt a{
+    text-decoration: none;
+    color: #0E30E9;
+}
+
 /* Style for each section (Cracking Good Food and Banter & Brews) */
 .dailyContentMonday h2, .dailyContentMonday p {
     margin: 10px;
