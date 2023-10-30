@@ -125,9 +125,16 @@ section p{
 }
 
 .dailyContentMonday {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display:flex;
+    margin: 20px;
+}
+
+.dailyContent1{
+   flex:1;
+}
+
+.dailyContent2{
+    flex:1;
 }
 
 /* Style for each section (Cracking Good Food and Banter & Brews) */
