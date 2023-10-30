@@ -125,8 +125,11 @@ section p{
 }
 
 .dailyContentMonday {
-    display:flex;
     margin: 20px;
+}
+
+.dailyGroups{
+    display:flex;
 }
 
 .dailyContent1{
