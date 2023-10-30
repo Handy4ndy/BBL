@@ -124,6 +124,18 @@ section p{
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
+.dailyContentMonday {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for each section (Cracking Good Food and Banter & Brews) */
+.dailyContentMonday h2, .dailyContentMonday p {
+    margin: 10px;
+    padding: 10px;
+}
+
 
 .dailyContentFriday h2{
     color: #367A3F;
