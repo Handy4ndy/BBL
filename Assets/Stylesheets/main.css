@@ -1,10 +1,11 @@
 /* Global styles for the main content */
-body{
+body {
     text-align: center;
-    align-self: center;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
+    margin: 0;
+    background-color: #FEFEFD;
+    color: #333;
 }
 
 .background-wrapper {
