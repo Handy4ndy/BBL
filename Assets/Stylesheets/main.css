@@ -186,6 +186,12 @@ section p{
         margin:0;
     }
 
+.dailyContentMonday a{
+        color: #0E30E9;
+        text-decoration: none;
+        margin:0;
+    }
+
 /* 3 inline divs with responsive flex layout styles */
 .inlineDiv {
     display: inline-flex;
