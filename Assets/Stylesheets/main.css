@@ -226,6 +226,7 @@ section p{
     border-radius: 5px;
     padding: 2px;
     margin: 2px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .divBox h3{
