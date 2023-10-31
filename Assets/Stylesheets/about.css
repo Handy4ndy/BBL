@@ -84,15 +84,16 @@ main {
 
 /* Style for the embedded iframe */
 iframe {
-    width: 80%;
-    height: 730px;
+    width: 98%;
+    height: 840px;
     margin:  0;
     border: none;
+    border-radius: 10px;
 }
 
 
 .about-section img {
-    width: 100%;
+    width: 40%;
     max-width: 100%;
     height: auto;
     display: block;
