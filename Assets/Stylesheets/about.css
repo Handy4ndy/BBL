@@ -74,7 +74,7 @@ main {
     margin-left: 20px;
 }
 
-.about-section a, .committee-section a, .partners-section a {
+.about-section a, .partners-section a {
     margin-top: 10px;
     text-decoration: none;
     color: #007BFF;
@@ -99,4 +99,17 @@ iframe {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
+}
+.committee-section img{
+    display:flex;
+    width: 60%;
+    margin:auto;
+}
+
+.committee-section a{
+    margin:auto;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 600;
+    text-align: center;
 }
