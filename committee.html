@@ -96,34 +96,42 @@
     </main>
 
     <footer>
-        
-
-        <img class="footerImg" src="Assets/Images/GM-About-Logos-2.png" alt="Greater Manchester About Logos">
-
-        
-
-        <div class="footerText">
-
-            <p><strong>Privacy Notice:</strong></p>
-
-            <p><em>As you know we host a lot of events and we really enjoy sharing these with you all, On occasions pictures will be displayed here that may include individuals that have not provided consent. If you have any issues with our pictures, images or content please get intouch so we can recify the issue.</em></p>
-
-        </div>
 
         <div class="footerLinks">
         
-                <a href="contactnumbers.html">Useful Numbers</a>
+                <a href="contactnumbers.html" target="_blank">Useful Numbers</a>
                 <a href="linktree.html">Link tree</a>
         
                 <p>Brinnington Big Local &copy; 2023</p>
         
                 <a href="placeholder">Privacy Policy</a>
-                <a href="placeholder">Back to top</a>
+                <a href="index.html">Back to top</a>
         
         </div>
 
+        <span id="visitorCounter">0</span> visitors
+
     </footer>
     
+    <script>
+        // Check if the visitorCount key exists in localStorage
+        if (localStorage.getItem("visitorCount") === null) {
+            // If it doesn't exist, initialize it with 0
+            localStorage.setItem("visitorCount", 0);
+        }
+    
+        // Get the current visitor count from localStorage
+        let visitorCount = parseInt(localStorage.getItem("visitorCount"));
+    
+        // Increment the visitor count
+        visitorCount++;
+    
+        // Update the counter in the HTML
+        document.getElementById("visitorCounter").textContent = visitorCount;
+    
+        // Update the visitor count in localStorage
+        localStorage.setItem("visitorCount", visitorCount);
+    </script>
     
     
 </body>
