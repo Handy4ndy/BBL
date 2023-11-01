@@ -1,3 +1,4 @@
+/* Global styles for the main content */
 body {
     text-align: center;
     font-size: 16px;
@@ -14,102 +15,362 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: linear-gradient(to bottom, #0E30E9, #FEFEFD);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(#0E30E9, #FEFEFD);
+    background-repeat: repeat-y;
     background-position: center top;
     background-attachment: fixed;
+  }
+    
+
+/* Other global styles for the main content */
+main {
+    width: 80%;
+    margin:20px auto;
+    
 }
 
-.fixed-image img {
+h1 {
+    padding-top: 10px;
+    color:#0E30E9;
+    text-decoration:underline;
+    font-size: 2em;
+}
+
+h2 {
+    padding-top: 10px;
+    color:#0E30E9;
+    text-decoration:underline;
+}
+
+h3 {
+    padding-top: 10px;
+    color:#0E30E9;
+    text-decoration:underline;
+}
+
+a{
+    text-decoration-style: none;
+
+}
+
+div {
+    margin: auto; /* Center the main content horizontally and add top margin */
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+section {
+    background: url(elewhite.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+section p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* ------------------Orange umbrella------------------ */
+.fixed-image img{
     position: fixed;
-    width: 100px;
+    width:5%;
+    bottom: 1px;
+    left: 1px;
+    z-index: 9999;
+}
+
+/* Style for the introduction section */
+.introduction {
+    display: flex;
+    text-align: center; 
+    background: url(elewhite.jpg);
+    background-size: cover;
+    padding: 0 0 0 0;
+}
+
+.intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introImg {
+    max-width: 200px; 
+    margin: 10px;
+    flex: 1; 
+}
+
+.intro-content p {
+    flex: 2; 
+    text-align: center;
+    padding: 10px;
+    margin: 10px ; 
+}
+
+.intro-content a {
+    text-decoration: none;
+    color:black;
+    margin: 0;
+}
+
+/* ------------------------------ daily content HTML ------------------------*/
+
+#dailyContent{
+    padding:0;
+    margin:0;
+}
+
+.bNb {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dailyContentMonday {
+    margin: 20px;
+}
+
+.dailyContentMonday .bNb {
+    width: 60%;
+    max-width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dailyGroups{
+    display:flex;
+}
+
+.dailyContent1{
+    margin:0;
+   flex:1;
+}
+
+.dailyContent2{
+    flex:1;
+}
+
+.dailyTxt a{
+    text-decoration: none;
+    color: #0E30E9;
+    margin:0;
+}
+
+/* Style for each section (Cracking Good Food and Banter & Brews) */
+.dailyContentMonday h2, .dailyContentMonday p {
+    margin:0 10px;
+    padding: 10px;
+}
+
+.dailyContentTuesday {
+    margin: 20px;
+}
+
+.dailyContentTuesday .bNb {
+    width: 60%;
+    max-width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dailyContentWednesday {
+    margin: 20px;
+}
+
+.dailyContentFriday h2{
+    color: #367A3F;
+
+}
+
+.dailyContentFriday p {
+    padding: 10px;
+    width:70%;
+    margin: auto;    
+}
+
+.dailyContentTuesday a{
+        color: #0E30E9;
+        text-decoration: none;
+        margin:0;
+    }
+
+.dailyContentMonday a{
+        color: #0E30E9;
+        text-decoration: none;
+        margin:0;
+    }
+
+/* 3 inline divs with responsive flex layout styles */
+.inlineDiv {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.divBox {
+    flex-basis: 30%;
+    text-align: center;
+    color: #ffffff;
+    background-color:  #0E89E9;
+    border: solid;
+    border-color: #7286f3;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.divBox h3{
+    color: #ffffff;
+    font-size: 30px;
+    margin:0px;
+    padding:0px;
+}
+
+.divBox img {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: #0E89E9;
+}
+
+.divBox p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.divBoxLink{
+    padding:10px;
+    background-color: #0E30E9;
+}
+
+.divBox a:visited {
+    color: #ffffff;
+}
+
+/* ----------------- Social Pages---------------------*/
+.socialBtns {
+    display: flex; 
+    max-width: 70%;
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+.socialBtns a {
+    text-align: center; 
+    text-decoration: none;
+    color: black; 
+    padding: 0 0 0 0;
+    margin:0 0 0 0;
+     
+}
+
+.socialLogo {
+    max-width: 48px;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.feedback .feedbackimg{
+    width:20%;
+}
+
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+
+    .fixed-image img{
+       width:10%;
+    position: fixed;
     bottom: 20px;
     left: 5px;
     z-index: 9999;
 }
-main {
-    display: flex;
-    width:80%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin:auto;
+
+.fixed-image img {
+    width: 100px;
+    height: auto; 
+    border: none; 
 }
 
-.section-wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
+    .introduction {
+        text-align: center;
+        display: block;
+        margin: auto;
+        padding: 0px;
+    }
+    
+    .intro-content p{
+        padding:0 10px;
+    }
 
-/* Style for individual sections */
-.about-section, .committee-section, .partners-section {
-    flex: 1;
-    min-width: calc(30% - 20px);
-    margin: 10px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.about-section h2, .committee-section h2, .partners-section h2 {
-    font-size: 24px;
-    margin: 10px 0;
-    color: #333;
-}
-
-.about-section p, .committee-section p, .partners-section p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-}
-
-.about-section ul, .committee-section ul, .partners-section ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-.about-section a, .partners-section a {
-    margin-top: 10px;
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: 600;
-    margin: 0px;
-}
-
-/* Style for the embedded iframe */
-iframe {
-    width: 98%;
-    height: 840px;
-    margin:  0;
-    border: none;
-    border-radius: 10px;
-}
+    .introImg {
+        width:80%; 
+        margin:auto;
+        flex: 1; 
+    }
 
 
-.about-section img {
-    width: 40%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-}
-.committee-section img{
-    display:flex;
-    width: 60%;
-    margin:auto;
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .bNb {
+        Width:80%;
+        border-radius: 5px;
+        box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .dailyContentFriday h2{
+        color: #367A3F;
+        margin: 10px;
+    
+    }
+
+    .hubLink {
+        color: #0E30E9;
+        text-decoration: none;
+    }
+
+    .divBox {
+        flex-basis: 80%;
+        margin-bottom: 20px;
+    }
+
+    .socialBtns a {
+        text-align: center;
+        color: black;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0; 
+    }
+    
+    .socialBtns a img{
+        width: 50%;
+    }
+    
+    .feedback img{
+    width:50%;
 }
 
-.committee-section a{
-    margin:auto;
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: 600;
-    text-align: center;
+    footer {
+        flex-direction: column;
+    }
+
+
 }
