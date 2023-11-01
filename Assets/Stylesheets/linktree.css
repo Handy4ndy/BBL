@@ -35,82 +35,59 @@ main {
     padding: 20px;
 }
 
-/* Style for the linktree container */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
 .linktree-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Adjust the gap between link buttons */
-    max-width: 800px; /* Adjust the maximum width as needed */
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
-/* Style for individual link buttons */
+.link-section {
+    text-align: left;
+}
+
+.link-section h3 {
+    font-size: 20px;
+}
+
 .link-button {
-    background-color: #007BFF; /* Button background color */
-    color: #fff; /* Button text color */
-    padding: 10px 20px;
-    border-radius: 20px; /* Adjust as needed */
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
     text-decoration: none;
-    text-align: center;
     font-weight: bold;
+    display: flex;
+    align-items: center;
     transition: background-color 0.3s, transform 0.2s;
+}
+
+.link-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 .link-button a {
     text-decoration: none;
     color: #fff;
+    margin-left: 10px;
 }
 
-/* Hover effect */
-.link-button:hover {
-    background-color: #0056b3; /* Adjust the hover color */
-    transform: scale(1.05);
+.link-button img {
+    width: 48px;
+    border-radius: 50%;
 }
 
-/* Position each link button randomly (adjust positioning as needed) */
-.link-button:nth-child(1) {
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.socialLogo {
-    max-width: 48px;
-    display: block;
-    margin: 0 auto; 
-}
-
-/* Add more styles for other link buttons */
 @media (max-width: 768px) {
-
-    main {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%; /* Adjust the width for smaller screens */
+    .linktree-container {
+        flex-direction: column;
+        align-items: center;
     }
-
-    .fixed-image img{
-        width:10%;
-     position: fixed;
-     bottom: 20px;
-     left: 5px;
-     z-index: 9999;
- }
- 
- .fixed-image img {
-     width: 100px;
-     height: auto; 
-     border: none; 
- }
-
-    .socialLogo {
-        width: 50%;
-    }
-
-
-
-
-
-
-
-
 }
