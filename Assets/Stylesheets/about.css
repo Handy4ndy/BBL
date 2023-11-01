@@ -57,6 +57,10 @@ main {
     text-align: left;
 }
 
+.partners-section{ 
+    text-align: center;
+}
+
 .about-section h2, .committee-section h2, .partners-section h2 {
     font-size: 24px;
     margin: 10px 0;
