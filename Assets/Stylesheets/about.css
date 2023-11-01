@@ -342,6 +342,10 @@ section p{
         margin: 10px;
     
     }
+    
+    .dailyGroups{
+        flex-direction: column;
+    }
 
     .hubLink {
         color: #0E30E9;
