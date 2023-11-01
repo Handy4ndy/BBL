@@ -160,6 +160,7 @@ section p{
 .dailyTxt a{
     text-decoration: none;
     color: #0E30E9;
+    margin:0;
 }
 
 /* Style for each section (Cracking Good Food and Banter & Brews) */
@@ -182,6 +183,9 @@ section p{
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
+.dailyContentWednesday {
+    margin: 20px;
+}
 
 .dailyContentFriday h2{
     color: #367A3F;
@@ -337,6 +341,10 @@ section p{
         color: #367A3F;
         margin: 10px;
     
+    }
+    
+    .dailyGroups{
+        flex-direction: column;
     }
 
     .hubLink {
