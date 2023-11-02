@@ -157,6 +157,33 @@ section p{
     flex:1;
 }
 
+.dailyContentThursday .dailyContent2{
+    margin:0;
+}
+
+.dailyContentThursday .dailyContent2 img {
+    width:52%;
+    padding:10px;
+    margin:auto;
+}
+
+.dailyContentThursday .dailyContent1 img {
+    width:100%;
+    margin:auto;
+}
+
+.dailyContentThursday .dailyContent2 ul {
+    display:flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-image: linear-gradient(#FA1013, #4D45CF);
+    background-repeat: repeat-y;
+    background-position: center top;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
 .dailyTxt a{
     text-decoration: none;
     color: #0E30E9;
