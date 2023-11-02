@@ -43,6 +43,7 @@ main {
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    
 }
 
 .socialBtns {
@@ -74,6 +75,11 @@ main {
 .bblLogo{
     padding-top:32px;
     padding-bottom:30px;
+}
+
+.biglocalLogo {
+    padding-top:20px;
+    padding-bottom:10px;
 }
 
 .socialLogo {
