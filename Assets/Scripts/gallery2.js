@@ -1,4 +1,4 @@
-function openModal(imageSrc) {
+/*function openModal(imageSrc) {
     const modal = document.getElementById('myModal');
     const modalImage = document.getElementById('modalImage');
 
@@ -24,4 +24,4 @@ mediaElements.forEach((element) => {
 const closeModalButton = document.getElementById('closeModal');
 closeModalButton.addEventListener("click", () => {
     closeModal();
-});
+});*/
