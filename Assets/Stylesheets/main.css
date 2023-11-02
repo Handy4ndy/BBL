@@ -21,6 +21,14 @@ body {
     background-attachment: fixed;
   }
     
+/* ------------------Orange umbrella------------------ */
+.fixed-image img{
+    position: fixed;
+    width:5%;
+    bottom: 1px;
+    left: 1px;
+    z-index: 9999;
+}
 
 /* Other global styles for the main content */
 main {
@@ -72,14 +80,7 @@ section p{
     margin-right: 10%;
 }
 
-/* ------------------Orange umbrella------------------ */
-.fixed-image img{
-    position: fixed;
-    width:5%;
-    bottom: 1px;
-    left: 1px;
-    z-index: 9999;
-}
+
 
 /* Style for the introduction section */
 .introduction {
