@@ -51,14 +51,24 @@ main {
     margin:auto;
 }
 
+.socialIcons img{
+    max-width: 200px;
+}
+
+
 .socialBtns a {
     text-align: center; 
     text-decoration: none;
     color: black; 
     padding: 0 0 0 0;
-    margin:0 0 0 0;
+    margin:0 0 0 5px;
      
 }
+.socialBtns a img{
+    max-width: 50px;
+     
+}
+
 
 .socialLogo {
     max-width: 48px;
