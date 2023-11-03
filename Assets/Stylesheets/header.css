@@ -1,7 +1,7 @@
 header {
     align-self: center;
     text-align: center;
-    background-color:#0E89E9;
+    background-color:#1B1F3B;
     width:100%;
     border-style: solid;
     border-width: 1.5px;
@@ -15,22 +15,24 @@ header {
     max-width: 600px;
     padding: 20px;
     margin: auto;
-    
+    background-color:#1B1F3B;
 }
 
 .navigation {
     display: inline-flex;
-    background-color: #0E30E9;
     flex-wrap: wrap;
     flex-direction: column;
-    width:100%;
+    width:50%;
     margin: auto;
-    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width:1px;
     align-content: center;
 }
 
 ul {
-    background-color: #0E30E9;
+    background-color: #1B1F3B;
     display: flex;
     text-decoration: none;
     list-style-type: none;
@@ -54,7 +56,7 @@ a:visited {
 .dropdown-contentAbout {
     display: none;
     position: absolute;
-    background-color: #0E30E9; /* Background color of the dropdown */
+    background-color: #1B1F3B; /* Background color of the dropdown */
     list-style: none;
     border-radius: 10px;
     padding: 0;
@@ -74,7 +76,7 @@ a:visited {
 }
 
 .navigation .dropdownAbout:hover .dropdown-contentAbout a:hover {
-    background-color: #0E89E9; /* Background color for hovered dropdown items */
+    background-color: #0E30E9; /* Background color for hovered dropdown items */
 }
 
 /*    style for services dropdown      */
@@ -85,7 +87,7 @@ a:visited {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0E30E9; /* Background color of the dropdown */
+    background-color: #1B1F3B; /* Background color of the dropdown */
     list-style: none;
     border-radius: 10px;
     padding: 0;
@@ -105,24 +107,23 @@ a:visited {
 }
 
 .navigation .dropdown:hover .dropdown-content a:hover {
-    background-color: #0E89E9; /* Background color for hovered dropdown items */
+    background-color:  #0E30E9; /* Background color for hovered dropdown items */
 }
 
 
 @media (max-width: 768px) {
-    header {
-        padding-top: 10px;
-        margin-top: -10px;
-        border-radius: 10px;
-    }
-
+    
     .logo {
         width: 80%;
+    }
+    
+    .navigation {
+        width:99%
     }
 
     .navigation ul {
         display: flex;
-        padding: 5px 35px;
+        padding: 5px 0px;
         margin: 5px;
         /* Change to a block layout for smaller screens */
     }
@@ -134,14 +135,14 @@ a:visited {
 
     .dropdown-content {
         display: none; /* Hide dropdowns by default on smaller screens */
-        background-color: #0E30E9; /* Background color for dropdown items */
+        background-color: #1B1F3B; /* Background color for dropdown items */
         padding:0 20px;
         margin:0 -21px;
     }
     
     .dropdown-contentAbout{
         display: none; /* Hide dropdowns by default on smaller screens */
-        background-color: #0E30E9; /* Background color for dropdown items */
+        background-color: #1B1F3B; /* Background color for dropdown items */
         padding:0 20px;
         margin:0 -21px;
     }
@@ -158,7 +159,7 @@ a:visited {
 
     .dropdown-contentAbout a:hover,
     .dropdown-content a:hover {
-        background-color: #0E89E9;
+        background-color:  #0E30E9;
         border-radius: 5px;
         background-size: 50%;
         max-width: fit-content;
