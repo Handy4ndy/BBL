@@ -27,6 +27,7 @@ body {
     left: 5px;
     z-index: 9999;
 }
+
 main {
     width: 80%;
     flex-direction: column;
