@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+    
 // Function to open the modal with an image
 function openModal(imageSrc) {
     const modal = document.getElementById('myModal');
@@ -25,4 +27,6 @@ mediaElements.forEach((element) => {
 const closeModalButton = document.getElementById('closeModal');
 closeModalButton.addEventListener("click", () => {
     closeModal();
+});
+
 });
