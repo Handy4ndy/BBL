@@ -117,3 +117,22 @@ iframe {
     font-weight: 600;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+ 
+    .section-wrapper{
+        flex-direction: column;
+    }
+    
+    .committee-section img{
+        width:90%;
+    }
+    
+    iframe{
+        display:none;
+    }
+    
+    
+    
+    
+}
