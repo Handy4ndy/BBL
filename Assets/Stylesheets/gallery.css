@@ -49,11 +49,23 @@ section {
   cursor: pointer;
 }
 
+.gallery-wrapper .media-scroller img{
+  min-height: 285px;
+  
+}
+
 h2{
   color: #0E89E9;
 }
 
-
+.galleryIntro{
+  display:flex;
+  flex-direction: column;
+  width:80%;
+  margin:auto;
+  align-items: center;
+  
+}
 
 /* CSS for the modal */
 .modal {
@@ -220,7 +232,7 @@ h2{
 
 
 .eventHeaderImg{
-  max-width:30%; 
+  max-width:20%; 
 
 }
 
