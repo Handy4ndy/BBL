@@ -21,9 +21,9 @@ body {
 }
 
 /* ------------------Orange umbrella------------------ */
-.fixed-image img{
+.fixed-image img {
   position: fixed;
-  width:10%;
+  width: 10%;
   bottom: 20px;
   left: 5px;
   z-index: 9999;
@@ -32,8 +32,8 @@ body {
 /* Other global styles for the main content */
 main {
   width: 80%;
-  margin:20px auto;
-  
+  margin: 20px auto;
+
 }
 
 section {
@@ -49,24 +49,24 @@ section {
   cursor: pointer;
 }
 
-.gallery-wrapper .media-scroller img{
+.gallery-wrapper .media-scroller img {
   min-height: 285px;
-  
+
 }
 
-h2{
+h2 {
   color: #0E89E9;
 }
 
-.galleryIntro{
-  display:flex;
-  width:80%;
-  margin:10px auto;
+.galleryIntro {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
   align-items: center;
 }
 
-.eventHeaderImg{
-  max-width:40%; 
+.eventHeaderImg {
+  max-width: 40%;
 }
 
 /* CSS for the modal */
@@ -107,10 +107,10 @@ h2{
   cursor: pointer;
 }
 
-.gallery-wrapper{
+.gallery-wrapper {
   background-color: white;
   border-radius: 10px;
-  width:80%;
+  width: 80%;
   margin: auto;
 }
 
@@ -154,8 +154,8 @@ h2{
 }
 
 
-iframe{
-  width:80%;
+iframe {
+  width: 80%;
   max-width: 400px;
 }
 
@@ -166,19 +166,24 @@ iframe{
   }
 
 
-iframe{
-  width:80%
-}
-  
-  .galleryIntro{
+  iframe {
+    width: 80%
+  }
+
+  .galleryIntro {
     flex-direction: column;
   }
-  
+
   .media-scroller {
-  grid-auto-columns: 33%;
+    grid-auto-columns: 33%;
   }
-  
-  .eventHeaderImg{
-  max-width:80%; 
-}
+
+  .eventHeaderImg {
+    max-width: 80%;
+  }
+
+  .modal-content img {
+    width: 80%;
+  }
+
 }
