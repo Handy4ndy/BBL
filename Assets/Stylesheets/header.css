@@ -53,7 +53,7 @@ a:visited {
     position: relative;
 }
 
-.dropdownAbout span, .dropdown span{
+.dropdownAbout span{
     color: white;
 }
 
@@ -64,7 +64,8 @@ a:visited {
     list-style: none;
     border-radius: 10px;
     padding: 0;
-    text-align: center;
+    margin:0 -20px;
+    text-align: left;
 }
 
 /* Display the dropdown as a block */
@@ -86,7 +87,7 @@ a:visited {
     text-decoration: none;
     display: block;
     padding: 0 25px;
-    margin: 10px auto;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -102,7 +103,8 @@ a:visited {
     list-style: none;
     border-radius: 10px;
     padding: 0;
-    text-align: center;
+    text-align: left;
+    margin: 0 -20px;
 }
 
 /* Display the dropdown as a block */
@@ -124,7 +126,7 @@ a:visited {
     text-decoration: none;
     display: block;
     padding: 0 30px;
-    margin: 10px auto;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -152,7 +154,8 @@ a:visited {
         display: none;
         background-color: #1B1F3B;
         padding: 0 20px;
-        margin: 0 -21px;
+        margin: 0 -20px;
+       
     }
 
     .dropdown-contentAbout {
@@ -193,4 +196,7 @@ a:visited {
         padding: 5px;
         margin: 5px 0;
     }
+}
+.dropdownAbout span, .dropdown span{
+    color: white;
 }
