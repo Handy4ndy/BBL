@@ -23,9 +23,9 @@ body {
 /* ------------------Orange umbrella------------------ */
 .fixed-image img{
   position: fixed;
-  width:5%;
-  bottom: 1px;
-  left: 1px;
+  width:10%;
+  bottom: 20px;
+  left: 5px;
   z-index: 9999;
 }
 
@@ -67,7 +67,6 @@ h2{
 
 .eventHeaderImg{
   max-width:40%; 
-
 }
 
 /* CSS for the modal */
@@ -171,4 +170,15 @@ iframe{
   width:80%
 }
   
+  .galleryIntro{
+    flex-direction: column;
+  }
+  
+  .media-scroller {
+  grid-auto-columns: 33%;
+  }
+  
+  .eventHeaderImg{
+  max-width:80%; 
+}
 }
