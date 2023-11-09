@@ -6,7 +6,7 @@
         <meta author="Aspencer">
         <meta keywords="Brinnington, brinnington, Stockport, stockport, Community group, community group, Community, Projects, Funding, grass roots, groundworks, Brinnington Big Local, BBL, brinnington big local, bbl, Greenthumbs, greenthumbs">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>//Home</title>
+        <title>//Committee</title>
         <link rel="shortcut icon" href="Assets/Images/logoimg.png" type="image/x-icon">
         <link rel="stylesheet" href="Assets/Stylesheets/committee.css">
         <link rel="stylesheet" href="Assets/Stylesheets/header.css">
@@ -56,14 +56,14 @@
     <main>
 
 
-        <section class="content">
+        <section class="content-intro">
             <h2>Meet Our Committee</h2>
             <p>Our committee is composed of creative, talented, passionate, and skilled volunteers who work together as a team to bring lasting change to Brinnington. Over the past year, we've welcomed new members and initiated various projects and services to support our residents, all while organizing entertaining events to keep the community engaged.</p>
             <p>This community puts the ‘spirit’ into community spirit, and the heartwarming dedication of our committee members is a testament to the collective power of people to drive change.</p>
         
         </section>
 
-        <section class="content">
+        <section class="content-committeeImages">
         <h2>Our Committee Members</h2>
             <div class="committee-members">
                 <img src="Assets/Images/committee/AndyJones.jpg" alt="Andy Jones">
@@ -78,9 +78,9 @@
             </div>
         </section>
 
-        <section class="content">
+        <section class="content-comments">
             <h3>Committee Insights</h3>
-            <ul>
+            <ul id="commentList">
                 <li><strong>Vice Chair:</strong> "I've enjoyed being part of a great team, dedicated to making a difference. As a resident, it's a pleasure to see our community flourish. I am proud to represent Brinnington in my role as vice chair."</li>
                 <li><strong>Friendships and New Skills:</strong> "Being part of Big Local is like being part of a team. I've made new, long-lasting friendships and learned new skills, all while enjoying helping and supporting others."</li>
                 <li><strong>Listening to Residents:</strong> "Big Local listens to residents and delivers the best possible service while obtaining the best value for money. Organizing trips like the five coaches to Blackpool Zoo is amazing work."</li>
@@ -88,7 +88,7 @@
                 <li><strong>Volunteering for a Better Community:</strong> "I love being a volunteer at BBL, as I love being involved in improving life for my fellow residents, family, and friends."</li>
             </ul>
         </section>
-        <section class="content">
+        <section class="content-chairMessage">
             
             <h3>Message from the Chair</h3>
             <p>As a long-time resident of Brinnington, it is my privilege to serve as Chair of the Big Local and to be part of a group of people whose passion, energy, determination, and commitment have supported the planning and delivery of projects that make a difference to so many people in Brinnington. Local decision-making and partnership working are at the core of The Big Local’s ambitions. Our shared goals and vision help bring people and organizations together to ensure our community thrives.</p>
@@ -99,7 +99,7 @@
             <p>Julie Loftus, Chair of Brinnington Big Local</p>
         </section>
 
-        <section class="content">
+        <section class="content-groundworks">
             <!-- Place for Mark and Nina -->
             <h2>Groundwork Team</h2>
             <p>We are delighted to have Mark and Nina, who are part of the Groundwork team, as valuable members of our committee. Their expertise and commitment have greatly contributed to our community's well-being.</p>
@@ -149,6 +149,22 @@
     
         // Update the visitor count in localStorage
         localStorage.setItem("visitorCount", visitorCount);
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        var commentList = document.getElementById('commentList');
+        var comments = commentList.getElementsByTagName('li');
+        var index = 0;
+
+        function toggleComment() {
+            comments[index].style.display = 'none';
+            index = (index + 1) % comments.length;
+            comments[index].style.display = 'block';
+        }
+
+        setInterval(toggleComment, 5000); // Change 5000 to the desired interval in milliseconds
+    });
     </script>
     
     
