@@ -70,11 +70,20 @@ ul {
     margin-left: 20px;
 }
 
-img.bNb {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
+#commentList{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-height: 130px;
+    background-color: #0E30E9;
+    color:white;
+    padding:10px;
+    margin: auto;
+}
+
+li{text-align: center; /* This centers the text horizontally */
+    list-style-type: none;
 }
 
 /* Style for the Groundwork team section */
