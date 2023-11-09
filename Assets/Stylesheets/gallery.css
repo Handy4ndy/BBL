@@ -161,6 +161,12 @@ iframe {
 
 @media (max-width: 768px) {
 
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
   .eventGallery img {
     width: 80%;
   }

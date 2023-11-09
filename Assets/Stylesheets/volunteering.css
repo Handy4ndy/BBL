@@ -104,3 +104,13 @@ img.volunteer-image {
 .contact-button:hover {
     background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+}
