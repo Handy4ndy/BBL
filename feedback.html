@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="Assets/Stylesheets/feedback.css">
         <link rel="stylesheet" href="Assets/Stylesheets/header.css">
         <link rel="stylesheet" href="Assets/Stylesheets/footer.css">
-        <script src="Assets/Scripts/hub.js"></script>
+        <script src="Assets/Scripts/feedback.js"></script>
         
     </head>
 <body>
@@ -59,81 +59,42 @@
             <a href="thehub.html"><img class="introImg" src="Assets/Images/hub-001.png" alt="The Hub"></a>
             <div class="intro-content">
                 <h2>Share Your Thoughts with Us</h2>
-                <p>Welcome to the new and improved Brinnington Big Local website! We believe in the power of community feedback, and we want to hear from you. Your insights help us shape and improve our initiatives to better serve the Brinnington area.</p>
-                <p>Take a moment to share your thoughts through our dedicated feedback forms:</p>
-                
-                <div class="inlineDiv">
-                            
-                    <!-- Next Event Section -->
-                    <div class="divBox">
-                        <h3>General Feedback</h3>
-                        <img class="giveaway" src="Assets/Images/townCryer.png" alt="townCryer image">
-                        <p>This is our General feedback form, if you have any suggestions or feedback about our services we would love to hear from you, as a community lead project we are here to listen and take action to inprove the lives of local residents, your thoughts matter and shape what we do.</p>
-                        </div>
-                        <button onclick>Click Here</button>
-                
-                    <!-- voluenteer Section -->
-                    <div class="divBox">
-                        <h3>Youth Feedback</h3>
-                        <img src="Assets/Images/townCryer.png" alt="townCryer image">
-                        <p>We welcome suggestions and feedback from the younger generations of our community and this form is for them, feel free to leave annoymous feedback so we know what matters to you! </p>
-                        <button onclick>Click Here</button>
-                    </div>
-                
-                    <!-- Last Event Section -->
-                    <div class="divBox">
-                        <h3>Volunteer with us!</h3>
-                        <img src="Assets/Images/townCryer.png"alt="townCryer image">
-                        <p>Volunteering doesn't just look good on your CV - you can make a real difference in your community while having fun, learning new skills and seeing your work make a difference in the place you live.<br><br> On top of that, you never know who you're going to meet out in the community!</p>
-                        <button onclick>Click Here</button>
-                    </div>
-                </div>
-                
-        </div>
-        
-                <p>Whether you have general feedback, are a young resident with unique perspectives, or are interested in volunteering, your input matters. Brinnington Big Local is committed to creating positive and lasting change, and your feedback plays a vital role in achieving that.</p>
-                <p>Explore more about our community-led initiatives by visiting our <a href="about.html">About</a> and <a href="projects.html">Projects</a> pages.</p>
+                <p>Welcome to the new and improved Brinnington Big Local website! We believe in the power of community feedback, and we want to hear from you. Your insights help us shape and improve our initiatives to better serve the Brinnington area. Whether you have general feedback, are a young resident with unique perspectives, or are interested in volunteering, your input matters. Brinnington Big Local is committed to creating positive and lasting change, and your feedback plays a vital role in achieving that. Explore more about our community-led initiatives by visiting our <a href="about.html">About</a> and <a href="projects.html">Projects</a> pages.</p>
             </div>
         </section>
         
-
-            <section>
-
-                    <div class="inlineDiv">
-                            
-                                <!-- Next Event Section -->
-                                <div class="divBox">
-                                    <h3>General Feedback</h3>
-                                    <img class="giveaway" src="Assets/Images/townCryer.png" alt="townCryer image">
-                                    <p>This is our General feedback form, if you have any suggestions or feedback about our services we would love to hear from you, as a community lead project we are here to listen and take action to inprove the lives of local residents, your thoughts matter and shape what we do.</p>
-                                    </div>
-                            
-                                <!-- voluenteer Section -->
-                                <div class="divBox">
-                                    <h3>Youth Feedback</h3>
-                                    <img src="Assets/Images/townCryer.png" alt="townCryer image">
-                                    <p>We welcome suggestions and feedback from the younger generations of our community and this form is for them, feel free to leave annoymous feedback so we know what matters to you! </p>
-                                    <a href="volunteer.html" class="divBoxLink">Sign Up</a>
-                                </div>
-                            
-                                <!-- Last Event Section -->
-                                <div class="divBox">
-                                    <h3>Volunteer with us!</h3>
-                                    <img src="Assets/Images/townCryer.png"alt="townCryer image">
-                                    <p>Volunteering doesn't just look good on your CV - you can make a real difference in your community while having fun, learning new skills and seeing your work make a difference in the place you live.<br><br> On top of that, you never know who you're going to meet out in the community!</p>
-                                </div><a href="gallery.html" class="divBoxLink">Click Here</a>
-                                </div>
-
-                                
-                            
-                            
-                    </div>
-        
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKVXgwd0AHt-gL1XRrbCOzoHq9KAy3HECmWP8YTcSwVbFgrQ/viewform?embedded=true" width="640" height="933" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexr6-Kpa7IhieerEXAjjAtZH5IZEdGF40emDa3yQwGDjmcDw/viewform?embedded=true" width="640" height="953" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqkqAasI9xf2wVz5krRhG5fMMm_gHkfTSZMUy4Uj8tEgD07g/viewform?embedded=true" width="640" height="1110" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        
+        <div class="inlineDiv">
+            <!-- General Feedback Section -->
+            <div class="divBox" id="generalFeedbackSection">
+                <h3>General Feedback</h3>
+                <img class="giveaway" src="Assets/Images/townCryer.png" alt="townCryer image">
+                <p>This is our General feedback form, if you have any suggestions or feedback about our services we would love to hear from you, as a community lead project we are here to listen and take action to improve the lives of local residents, your thoughts matter and shape what we do.</p>
+                <button onclick="showForm('feedbackForm')">Click Here</button>
+            </div>
+    
+            <!-- Youth Feedback Section -->
+            <div class="divBox" id="youthFeedbackSection">
+                <h3>Youth Feedback</h3>
+                <img src="Assets/Images/townCryer.png" alt="townCryer image">
+                <p>We welcome suggestions and feedback from the younger generations of our community and this form is for them, feel free to leave anonymous feedback so we know what matters to you!</p>
+                <button onclick="showForm('youthFeedback')">Click Here</button>
+            </div>
+    
+            <!-- Volunteer Section -->
+            <div class="divBox" id="volunteerSection">
+                <h3>Volunteer with us!</h3>
+                <img src="Assets/Images/townCryer.png" alt="townCryer image">
+                <p>Volunteering doesn't just look good on your CV - you can make a real difference in your community while having fun, learning new skills and seeing your work make a difference in the place you live.<br><br> On top of that, you never know who you're going to meet out in the community!</p>
+                <button onclick="showForm('volunteerForm')">Click Here</button>
+            </div>
+        </div>
+    
+        <section>
+            <iframe id="feedbackForm" src="https://docs.google.com/forms/d/e/1FAIpQLSeKVXgwd0AHt-gL1XRrbCOzoHq9KAy3HECmWP8YTcSwVbFgrQ/viewform?embedded=true" width="640" height="933" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe id="youthFeedback" src="https://docs.google.com/forms/d/e/1FAIpQLSexr6-Kpa7IhieerEXAjjAtZH5IZEdGF40emDa3yQwGDjmcDw/viewform?embedded=true" width="640" height="953" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe id="volunteerForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfqkqAasI9xf2wVz5krRhG5fMMm_gHkfTSZMUy4Uj8tEgD07g/viewform?embedded=true" width="640" height="1110" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </section>
+            
         
     </main>
 
