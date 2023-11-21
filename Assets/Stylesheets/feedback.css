@@ -171,6 +171,26 @@ section p{
 }
 
 
+/* ------------ feedback form section--------------   */
+
+.formsection #feedbackForm{
+    display:none;
+    width:640px ;
+    height: 933px ;  
+}
+
+.formsection #youthFeedback{
+    display:none;
+    width:640px;
+    height:953px;
+
+}
+
+.formsection #volunteerForm{
+    display:none;
+    width:640px;
+    height:1110px;
+}
 
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
