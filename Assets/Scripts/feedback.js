@@ -7,3 +7,5 @@ function showForm(formId) {
     // Show the selected iframe
     document.getElementById(formId).style.display = 'block';
 }
+
+showForm()
