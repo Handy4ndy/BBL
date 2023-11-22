@@ -173,6 +173,9 @@ section p{
 
 
 /* ------------ feedback form section--------------   */
+#formSection{
+    display:none;
+}
 
 .formsection #feedbackForm{
     display:none;
