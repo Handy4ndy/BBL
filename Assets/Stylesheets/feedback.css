@@ -173,27 +173,16 @@ section p{
 
 
 /* ------------ feedback form section--------------   */
-#formSection{
-    display:none;
+/* ------------ feedback form section--------------   */
+#formSection {
+    display: none;
 }
 
-#formsection #feedbackForm{
-    display:none;
-    width:640px ;
-    height: 933px ;  
-}
-
-#formsection #youthFeedback{
-    display:none;
-    width:640px;
-    height:953px;
-
-}
-
-#formsection #volunteerForm{
-    display:none;
-    width:640px;
-    height:1110px;
+#feedbackForm, #youthFeedback, #volunteerForm {
+    display: none;
+    width: 640px;
+    /* Set appropriate height for each form */
+    height: 1110px;
 }
 
 /* Media queries for smaller screens */

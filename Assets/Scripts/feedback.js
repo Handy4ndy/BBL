@@ -1,4 +1,7 @@
-let formSection = document.getElementById('formSection');
+const formSection = document.getElementById('formSection');
+
+// Initially hide the formSection
+formSection.style.display = 'none';
 
 function showForm(formId) {
     // Hide all iframes
@@ -11,5 +14,4 @@ function showForm(formId) {
     document.getElementById(formId).style.display = 'block';
 }
 
-// Initial call to hide all iframes
-showForm();
+
