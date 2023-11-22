@@ -1,6 +1,6 @@
 const formSection = document.getElementById('formSection');
 
-// Initially hide the formSection
+
 
 
 function showForm(formId) {
