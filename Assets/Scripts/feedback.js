@@ -1,6 +1,4 @@
-let standyby = document.getElementById('formSection')
-
-standyby.style.display ="none";
+let formSection = document.getElementById('formSection');
 
 function showForm(formId) {
     // Hide all iframes
@@ -9,8 +7,9 @@ function showForm(formId) {
     document.getElementById('volunteerForm').style.display = 'none';
 
     // Show the selected iframe
-    standyby.style.display= 'block';
+    formSection.style.display = 'block';
     document.getElementById(formId).style.display = 'block';
 }
 
-showForm()
+// Initial call to hide all iframes
+showForm();
