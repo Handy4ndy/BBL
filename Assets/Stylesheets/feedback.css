@@ -177,20 +177,20 @@ section p{
     display:none;
 }
 
-.formsection #feedbackForm{
+#formsection #feedbackForm{
     display:none;
     width:640px ;
     height: 933px ;  
 }
 
-.formsection #youthFeedback{
+#formsection #youthFeedback{
     display:none;
     width:640px;
     height:953px;
 
 }
 
-.formsection #volunteerForm{
+#formsection #volunteerForm{
     display:none;
     width:640px;
     height:1110px;
