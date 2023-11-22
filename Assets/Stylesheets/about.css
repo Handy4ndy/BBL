@@ -37,6 +37,22 @@ main {
     margin:auto;
 }
 
+h1 {
+    color:#0E30E9;
+    text-decoration:underline;
+    font-size: 2em;
+}
+
+h2 {
+    color:#0E30E9;
+    text-decoration:underline;
+}
+
+h3 {
+    color:#0E30E9;
+    text-decoration:underline;
+}
+
 .section-wrapper {
     display: flex;
     justify-content: space-around;
@@ -64,7 +80,7 @@ main {
 .about-section h2, .committee-section h2, .partners-section h2 {
     font-size: 24px;
     margin: 10px 0;
-    color: #333;
+    color: #0E30E9;
 }
 
 .about-section p, .committee-section p, .partners-section p {
@@ -81,7 +97,7 @@ main {
 .about-section a, .partners-section a {
     margin-top: 10px;
     text-decoration: none;
-    color: #007BFF;
+    color: #0E30E9;
     font-weight: 600;
     margin: 0px;
 }
@@ -113,7 +129,7 @@ iframe {
 .committee-section a{
     margin:auto;
     text-decoration: none;
-    color: #007BFF;
+    color: #0E30E9;
     font-weight: 600;
     text-align: center;
 }
