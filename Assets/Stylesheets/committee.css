@@ -65,7 +65,9 @@ h3 {
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    width: 80%;
+    margin:auto;
+    
 }
 
 ul {
@@ -77,7 +79,7 @@ ul {
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 60%;
     min-height: 130px;
     background-color: #0E30E9;
     color:white;
