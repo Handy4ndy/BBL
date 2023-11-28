@@ -95,11 +95,12 @@ section p{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin: 0 0 0 0;
+    padding: 20px;
 }
 
 .introImg {
     max-width: 200px; 
-    margin: 10px;
     flex: 1; 
 }
 
