@@ -46,6 +46,8 @@ h1 {
 h2 {
     color:#0E30E9;
     text-decoration:underline;
+    padding:5px;
+    margin:10px;
 }
 
 h3 {
@@ -240,7 +242,7 @@ section p{
         margin:0;
     }
 
-/* 3 inline divs with responsive flex layout styles */
+/*----------------- 3 inline divs with responsive flex layout styles------------- */
 .inlineDiv {
     display: inline-flex;
     flex-wrap: wrap;
@@ -296,6 +298,7 @@ section p{
     background-color: #0E30E9;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-top:35px;
 }
 
 
@@ -303,7 +306,7 @@ section p{
     color: #ffffff;
 }
 
-/* ----------------- Social Pages---------------------*/
+/* ------------------------------------------- Social Pages---------------------*/
 .socialBtns {
     display: flex; 
     max-width: 70%;
@@ -326,6 +329,7 @@ section p{
     margin: 0 auto; 
 }
 
+/*-------------------------------------------feedback section------------------*/
 
 .feedback{
     padding-bottom:0;
