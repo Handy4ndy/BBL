@@ -327,8 +327,22 @@ section p{
 }
 
 
-.feedback .feedbackimg{
-    width:20%;
+.feedback{
+    padding-bottom:0;
+}
+
+.feedbackContent{
+    display:flex;
+    padding-bottom: 0px;
+}
+.feedbackContent p{
+    margin: 20px;
+}
+
+.feedbackimg{
+    flex-wrap: wrap;
+    max-width: 200px;
+    margin-top:-20px;
 }
 
 
