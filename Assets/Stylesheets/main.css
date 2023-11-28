@@ -431,10 +431,16 @@ section p{
 
     .feedbackContent{
         display:flex;
+        flex-direction: column;
     }
-    
+    .feedbackContent p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .feedback img{
-    width:50%;
+    width:70%;
+    margin:0;
+    padding:0;
 }
 
     footer {
