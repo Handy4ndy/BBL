@@ -195,7 +195,8 @@ section p{
 }
 
 .dailyContentTuesday {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: -15px;
 }
 
 .dailyContentTuesday .bNb {
