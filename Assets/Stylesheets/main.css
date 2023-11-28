@@ -397,6 +397,10 @@ section p{
     .socialBtns a img{
         width: 50%;
     }
+
+    .feedbackContent{
+        display:flex;
+    }
     
     .feedback img{
     width:50%;
