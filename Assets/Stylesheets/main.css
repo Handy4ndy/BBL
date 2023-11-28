@@ -363,7 +363,7 @@ section p{
 }
 
 .fixed-image img {
-    width: 100px;
+    width: 50px;
     height: auto; 
     border: none; 
 }
@@ -375,7 +375,7 @@ section p{
         padding: 0px;
     }
     
-    .intro-content p{
+    .intro-content {
         padding:0 10px;
     }
 
@@ -400,8 +400,30 @@ section p{
 
     .dailyContentFriday h2{
         color: #367A3F;
-        margin: 10px;
+        margin: 10px;   
+    }
     
+    .dailyContent1 h2{
+        padding:0;
+        margin-top:5px;
+    }
+    
+    .dailyContent1 p{
+        margin:10px
+    }
+    
+    .dailyContent2 h2{
+        padding:0;
+        margin-top:5px;
+    }
+    
+    .dailyContent2 p{
+        margin:10px
+    }
+    
+    .dailyTxt h3{
+        padding:0;
+        margin:0;
     }
     
     .dailyGroups{
@@ -412,10 +434,22 @@ section p{
         color: #0E30E9;
         text-decoration: none;
     }
+    
+    .inlineDiv{
+        padding-bottom:0;
+    }
+    
+    .eventSection{
+        padding:0;
+    }
 
     .divBox {
         flex-basis: 80%;
         margin-bottom: 20px;
+    }
+    
+    .divBoxLinkGallery{
+        margin-top:0;
     }
 
     .socialBtns a {
