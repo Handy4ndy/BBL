@@ -266,15 +266,15 @@ section p{
 .divBox h3{
     color: #ffffff;
     font-size: 30px;
-    margin:0px;
+    margin:5px;
     padding:0px;
 }
 
 .divBox img {
     max-width: 80%;
     height: auto;
-    padding: 10px;
     background-color: #0E89E9;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .divBox p {
@@ -283,9 +283,21 @@ section p{
 }
 
 .divBoxLink{
+    display:block;
     padding:10px;
     background-color: #0E30E9;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
+
+.divBoxLinkGallery{
+    display:block;
+    padding:10px;
+    background-color: #0E30E9;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
 
 .divBox a:visited {
     color: #ffffff;
