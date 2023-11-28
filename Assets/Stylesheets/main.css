@@ -158,6 +158,10 @@ section p{
     flex:1;
 }
 
+.dailyTxt h3{
+    margin:0;
+}
+
 .dailyContentThursday .dailyContent2{
     margin:0;
 }
