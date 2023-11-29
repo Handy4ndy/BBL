@@ -72,6 +72,10 @@ h2 {
   max-width: 40%;
 }
 
+.crocJoeHeaderImg{
+  max-width: 30%;
+}
+
 /* CSS for the modal */
 .modal {
   display: none;
@@ -156,11 +160,6 @@ h2 {
   scroll-snap-align: start;
 }
 
-
-iframe {
-  width: 80%;
-  max-width: 400px;
-}
 
 @media (max-width: 768px) {
 
