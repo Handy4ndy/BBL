@@ -124,7 +124,7 @@ span:hover {
         display:block;
         width:100%;
         font-size: 14px;
-        margin:auto;
+        margin:25px auto;
     }
     
     img .logo{
@@ -133,31 +133,38 @@ span:hover {
     
     .logo{
         width:80%;
-        padding:20px 5px 5px;
+        padding:5px;
+        margin:auto;
     }
 
     .navigation {
         width: 100%;
-        margin: 5px;
+        margin:5px auto;
+    }
+    
+    ul {
+        margin:auto;
     }
 
     .dropdown-content {
         display: none;
         background-color: #1B1F3B;
-        margin:0px -160px
+        margin:auto;
     }
 
     .dropdown-contentAbout {
         display: none;
         background-color: #1B1F3B;
-        margin: 0 -21px;
+        margin:auto;
     }
 
-    .navigation .dropdownAbout:hover .dropdown-contentAbout,
-    .navigation .dropdown:hover .dropdown-content {
-        display: flex;
+    .navigation .dropdownAbout:hover .dropdown-contentAbout{
         padding:0px;
-        text-align: left;
+        margin-left:-20px;
+    }
+    .navigation .dropdown:hover .dropdown-content {
+        padding:0px;
+        margin-left:-160px;;
     }
 
     .dropdown-contentAbout a:hover,
