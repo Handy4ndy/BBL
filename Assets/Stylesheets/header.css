@@ -1,51 +1,57 @@
 /* Header styles */
 header {
+    display:flex;
     text-align: center;
-    background-color: #1B1F3B;
-    width: 100%;
-    border-style: solid;
-    border-width: 1.5px;
-    border-radius: 10px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
-    margin: -25px 0 auto;
+    font-size: 20pt;
+    margin: auto;
 }
 
 .logo {
-    display: block;
-    max-width: 600px;
+    max-width: 500px;
     padding: 20px;
     margin: auto;
-    background-color: #1B1F3B;
 }
 
 .navigation {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: inline;
     flex-direction: column;
-    width: 50%;
-    margin: auto;
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    border-width: 1px;
     align-content: center;
+    margin:auto;
 }
 
 ul {
-    background-color: #1B1F3B;
     display: flex;
     text-decoration: none;
     list-style-type: none;
 }
 
-a {
+.navigation a {
     color: white;
     text-decoration: none;
-    margin: 20px;
+    padding: 5px;
+    margin:5px;
+}
+
+.navigation a:hover {
+    background-color: #0E30E9;
+    border-radius: 5px;
+    max-width: fit-content;
 }
 
 a:visited {
     text-decoration: none;
+}
+
+span{
+    color: white;
+    padding:5px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: #0E30E9;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Style for the About dropdown */
@@ -53,41 +59,30 @@ a:visited {
     position: relative;
 }
 
-.dropdownAbout span{
-    color: white;
-}
 
 .dropdown-contentAbout {
     display: none;
     position: absolute;
-    background-color: #1B1F3B;
     list-style: none;
-    border-radius: 10px;
-    padding: 0;
-    margin:0 -20px;
     text-align: left;
+    padding:0px;
+    margin:0 -85px;
 }
 
 /* Display the dropdown as a block */
 .navigation .dropdownAbout:hover .dropdown-contentAbout {
-    display: block;
-}
-
-/* Style for hovered dropdown items */
-.dropdown-contentAbout a:hover {
+    display: flex;
+    font-size:14pt;
     background-color: #0E30E9;
     border-radius: 5px;
-    background-size: 50%;
-    max-width: fit-content;
 }
 
 /* Make the dropdown items look like links */
 .dropdown-contentAbout a {
     color: white;
     text-decoration: none;
-    display: block;
-    padding: 0 25px;
-    margin: 10px;
+    min-width: 80px;
+    text-align: left;
     cursor: pointer;
 }
 
@@ -99,34 +94,27 @@ a:visited {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #1B1F3B;
     list-style: none;
-    border-radius: 10px;
-    padding: 0;
     text-align: left;
-    margin: 0 -20px;
+    padding:0px;
+    margin:0 -255px;
 }
 
 /* Display the dropdown as a block */
 .navigation .dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Style for hovered dropdown items */
-.dropdown-content a:hover {
+    display: flex;
+    font-size: 14pt;
     background-color: #0E30E9;
     border-radius: 5px;
-    background-size: 50%;
-    max-width: fit-content;
 }
+
 
 /* Make the dropdown items look like links */
 .dropdown-content a {
     color: white;
     text-decoration: none;
-    display: block;
-    padding: 0 30px;
-    margin: 10px;
+    min-width: 100px;
+    text-align: left;
     cursor: pointer;
 }
 
