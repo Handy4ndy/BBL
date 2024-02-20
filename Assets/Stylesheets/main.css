@@ -357,6 +357,11 @@ section p{
 
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
+    
+    main {
+        margin:auto;
+        width: 90%; /* Adjust the width for smaller screens */
+    }
 
     .fixed-image img{
        width:10%;
@@ -387,13 +392,6 @@ section p{
         width:80%; 
         margin:auto;
         flex: 1; 
-    }
-
-
-    main {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%; /* Adjust the width for smaller screens */
     }
 
     .bNb {
