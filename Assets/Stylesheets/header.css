@@ -1,5 +1,6 @@
 /* Header styles */
 header {
+    width:80%;
     display:flex;
     text-align: center;
     font-size: 20pt;
@@ -122,28 +123,20 @@ span:hover {
     
     header{
         display:block;
-        width:100%;
+        width:80%;
         font-size: 14px;
-        margin:25px auto;
-    }
-    
-    img .logo{
-        padding: 0px;
+        margin:10px auto;
     }
     
     .logo{
         width:80%;
-        padding:5px;
+        padding:0px;
         margin:auto;
-    }
-
-    .navigation {
-        width: 100%;
-        margin:5px auto;
     }
     
     ul {
-        margin:auto;
+        padding:0px;
+        margin:0px auto;
     }
 
     .dropdown-content {
