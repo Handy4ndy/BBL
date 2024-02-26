@@ -34,7 +34,7 @@ ul {
 }
 
 .navigation a:hover {
-    background-color: #3f51b5;
+    background-color: #0E30E9;
     border-radius: 5px;
     max-width: fit-content;
 }
@@ -50,7 +50,7 @@ span{
 }
 
 span:hover {
-    background-color: #3f51b5;
+    background-color: #0E30E9;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ span:hover {
 .navigation .dropdownAbout:hover .dropdown-contentAbout {
     display: flex;
     font-size:14pt;
-    background-color: #3f51b5;
+    background-color: #0E30E9;
     border-radius: 5px;
 }
 
@@ -105,7 +105,7 @@ span:hover {
 .navigation .dropdown:hover .dropdown-content {
     display: flex;
     font-size: 14pt;
-    background-color: #3f51b5;
+    background-color: #0E30E9;
     border-radius: 5px;
 }
 
@@ -143,13 +143,13 @@ span:hover {
 
     .dropdown-content {
         display: none;
-        background-color: #3f51b5;
+        background-color: #1B1F3B;
         margin:auto;
     }
 
     .dropdown-contentAbout {
         display: none;
-        background-color:#3f51b5;
+        background-color: #1B1F3B;
         margin:auto;
     }
 
@@ -164,7 +164,7 @@ span:hover {
 
     .dropdown-contentAbout a:hover,
     .dropdown-content a:hover {
-        background-color: #3f51b5;
+        background-color: #0E30E9;
         border-radius: 5px;
         max-width: fit-content;
     }
