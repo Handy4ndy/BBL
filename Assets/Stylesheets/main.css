@@ -29,20 +29,17 @@ main {
 }
 
 h1 {
-    color:#0E30E9;
     text-decoration:underline;
     font-size: 2em;
 }
 
 h2 {
-    color:#0E30E9;
     text-decoration:underline;
     padding:5px;
     margin:10px;
 }
 
 h3 {
-    color:#0E30E9;
     text-decoration:underline;
 }
 
@@ -76,27 +73,25 @@ section p{
 .introduction {
     display: flex;
     text-align: center; 
+    justify-content: center;
+    align-items: center;
     background: url(elewhite.jpg);
     background-size: cover;
     padding: 0 0 0 0;
 }
 
 .intro-content {
-    display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: column;
-    align-items: center;
-    margin: 0 0 0 0;
-    padding: 20px;
+    flex:2;
 }
 
 .introImg {
-    max-width: 200px; 
+    max-width: 200px;
     flex: 1; 
 }
 
 .intro-content p {
-    flex: 2; 
     text-align: center;
     padding: 10px;
     margin: 10px ; 
@@ -248,7 +243,11 @@ section p{
 }
 
 .divBox {
+    display:flex;
+    flex-direction:column;
     flex-basis: 30%;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     color: #ffffff;
     background-color:  #0E89E9;
@@ -271,9 +270,9 @@ section p{
 .divBox img {
     max-width: 80%;
     height: auto;
-    background-color: #0E89E9;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 .divBox p {
     text-align: center;
@@ -281,20 +280,19 @@ section p{
 }
 
 .divBoxLink{
-    display:block;
     padding:10px;
     background-color: #0E30E9;
     border-radius: 5px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    align-self: flex-end;
+    margin:0px auto;
 }
 
 .divBoxLinkGallery{
-    display:block;
     padding:10px;
     background-color: #0E30E9;
     border-radius: 5px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
-    margin-top:35px;
+    align-self: flex-end;
+    margin:0px auto;
 }
 
 
