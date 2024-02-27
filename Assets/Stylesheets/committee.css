@@ -24,7 +24,7 @@ body {
 /* Other global styles for the main content */
 main {
     width: 80%;
-    margin: auto;
+    margin:20px auto;
     
 }
 
@@ -64,6 +64,17 @@ p {
 ul {
     list-style-type: disc;
     margin-left: 20px;
+}
+
+.committeeIntro{
+    display:flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+.committeeInsights{
+    min-width: 600px;
 }
 
 #commentList{
