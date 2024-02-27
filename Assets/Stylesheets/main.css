@@ -24,7 +24,7 @@ body {
 /* Other global styles for the main content */
 main {
     width: 80%;
-    margin:20px auto;
+    margin: auto;
     
 }
 
@@ -58,6 +58,7 @@ section {
     background-size: cover;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom:15px;
 }
 
 section p{
@@ -190,8 +191,7 @@ section p{
 }
 
 .dailyContentTuesday {
-    margin-top: 20px;
-    margin-bottom: -15px;
+    margin-top: 5px;
 }
 
 .dailyContentTuesday .bNb {
@@ -236,9 +236,7 @@ section p{
     }
 
 /*----------------- 3 inline divs with responsive flex layout styles------------- */
-.eventSection{
-    margin-top:5px;
-}
+
 
 .inlineDiv {
     display: inline-flex;
@@ -331,7 +329,7 @@ section p{
 /*-------------------------------------------feedback section------------------*/
 
 .feedback{
-    padding-bottom:0;
+    margin-bottom:10px;
 }
 
 .feedbackContent{
