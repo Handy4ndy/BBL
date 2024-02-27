@@ -30,7 +30,6 @@ main {
 
 h1 {
     text-decoration:underline;
-    font-size: 2em;
 }
 
 h2 {
@@ -59,7 +58,6 @@ section {
     background-size: cover;
     border-radius: 5px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
-    padding-bottom: 20px;
 }
 
 section p{
@@ -77,13 +75,17 @@ section p{
     align-items: center;
     background: url(elewhite.jpg);
     background-size: cover;
-    padding: 0 0 0 0;
+    padding:5px;
 }
 
 .intro-content {
-    
     flex-direction: column;
     flex:2;
+}
+
+.intro-content h1{
+    margin:5px;
+    font-size: 2em;
 }
 
 .introImg {
@@ -234,11 +236,14 @@ section p{
     }
 
 /*----------------- 3 inline divs with responsive flex layout styles------------- */
+.eventSection{
+    margin-top:5px;
+}
+
 .inlineDiv {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-bottom: 20px;
     color: #ffffff;
 }
 
